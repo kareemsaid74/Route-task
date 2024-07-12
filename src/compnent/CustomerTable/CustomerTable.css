@@ -1,0 +1,43 @@
+/* CustomerTable.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.customer-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.customer-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input-group input {
+    flex: 1;
+}
